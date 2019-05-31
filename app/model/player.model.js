@@ -1,15 +1,15 @@
 module.exports = (sequelize, Sequelize) => {
 	const Player = sequelize.define('player', {
-		Nationality: {
+		nationality: {
 			type: Sequelize.STRING
 		},
-		Name: {
+		name: {
 			type: Sequelize.STRING
 		},
-		Team: {
+		team: {
 			type: Sequelize.INTEGER
         },
-        Point: {
+        point: {
 			type: Sequelize.INTEGER
 		}
 	});

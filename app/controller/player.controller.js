@@ -20,11 +20,11 @@ exports.findAll = (req, res) => {
 };
 
 // Find a a Player by Id
-exports.findById = (req, res) => {
+exports.findById = (req, res) => {  
 	Player.findById(req.params.playerId).then(player => {
-		res.json(player);
+	  res.json(player);
 	})
-};
+  };
 
 // Update a Player
 exports.update = (req, res) => {

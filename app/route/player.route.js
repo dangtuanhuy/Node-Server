@@ -9,7 +9,7 @@ module.exports = function (app) {
     app.get('/api/players', players.findAll);
 
     // Retrieve a single player by Id
-    app.get('/api/players/:playerId', players.findById);
+     app.get('/api/players/:playerId', players.findById);
 
     // Update a player with Id
     app.put('/api/players', players.update);

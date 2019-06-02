@@ -62,7 +62,7 @@ function initial() {
             point: 10
         },
         {
-            id: 4,
+            id: 5,
             nationality: "Joe",
             name: "Thomas",
             team: 36,
